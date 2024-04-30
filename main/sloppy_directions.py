@@ -124,4 +124,3 @@ def supplementary():
 if __name__ == '__main__':
     os.chdir(os.path.dirname(__file__))
     supplementary()
-    os.system('''cp -R "figures/." "/home/alexandre/Insync/blanc.alexandre.perso@gmail.com/Google Drive - Shared with me/For_submission/Figures/plots_from_alexandre/final"''')

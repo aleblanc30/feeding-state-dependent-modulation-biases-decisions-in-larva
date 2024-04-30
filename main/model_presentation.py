@@ -146,11 +146,10 @@ def thresholds_combined_model():
 
 if __name__ == '__main__':
     os.chdir(os.path.dirname(__file__))
-    # neuron_activity(InputCurrentHbModel, 'model_input_current_to_handleB', 'with_input_current_to_handleB')
-    # neuron_activity(DecreasedRmaxLNaModel, 'model_decreased_rmax_to_iLNa', 'with_decreased_rmax_to_iLNa')
-    # neuron_activity(CombinedModel, 'combined_model', 'combined_model')
+    neuron_activity(InputCurrentHbModel, 'model_input_current_to_handleB', 'with_input_current_to_handleB')
+    neuron_activity(DecreasedRmaxLNaModel, 'model_decreased_rmax_to_iLNa', 'with_decreased_rmax_to_iLNa')
+    neuron_activity(CombinedModel, 'combined_model', 'combined_model')
 
-    # phase_diagram(InputCurrentHbModel, 'model_input_current_to_handleB', 'with_input_current_to_handleB')
-    # phase_diagram(DecreasedRmaxLNaModel, 'model_decreased_rmax_to_iLNa', 'with_decreased_rmax_to_iLNa')
+    phase_diagram(InputCurrentHbModel, 'model_input_current_to_handleB', 'with_input_current_to_handleB')
+    phase_diagram(DecreasedRmaxLNaModel, 'model_decreased_rmax_to_iLNa', 'with_decreased_rmax_to_iLNa')
     thresholds_combined_model()
-    os.system('''cp -R "figures/." "/home/alexandre/Insync/blanc.alexandre.perso@gmail.com/Google Drive - Shared with me/For_submission/Figures/plots_from_alexandre/final"''')

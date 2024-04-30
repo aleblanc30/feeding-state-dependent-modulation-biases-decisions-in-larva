@@ -77,5 +77,3 @@ if __name__ == '__main__':
     main(InputCurrentHbModel, 'model_input_current_to_handleB', 'with_input_current_to_handleB')
     main(DecreasedRmaxLNaModel, 'model_decreased_rmax_to_iLNa', 'with_decreased_rmax_to_iLNa')
     main(CombinedModel, 'combined_model', 'combined_model')
-
-    os.system('''cp -R "figures/." "/home/alexandre/Insync/blanc.alexandre.perso@gmail.com/Google Drive - Shared with me/For_submission/Figures/plots_from_alexandre/final"''')
